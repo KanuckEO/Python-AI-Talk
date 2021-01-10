@@ -3,7 +3,7 @@
     
 print('Hi, my name is Carl')
 print('I used to be a discord bot but I am now here to talk with you.')
-ans = (input("Hello would you like to talk"))
+ans = print(input("Hello would you like to talk?"))
 if ans == "yes":
     ans = (input("Are you sure"))
 if ans == "yes":
@@ -80,4 +80,7 @@ if ans == "yes":
               current_time = now.strftime("%H:%M")
               print("Cool it is ", current_time)
               print("Dummy")
+
+              
+
 
